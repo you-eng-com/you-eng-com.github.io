@@ -32,7 +32,7 @@ export default function App() {
         </Grid>
       </Grid>
 
-      <GitHubForkRibbon href="//github.com/you-eng-com/you-eng-com"
+      <GitHubForkRibbon href="//github.com/you-eng-com/you-eng-com.github.io"
         target="_blank"
         position="right">
         Fork me on GitHub

@@ -42,7 +42,7 @@ export interface VideoData {
 
 export class YouTubePlayerStore {
     //TODO read VideoId on page load
-    VideoId: string = "CZ3wIuvmHeM";
+    VideoId: string = "J3pF2jkQ4vc";
     TimedTextData: TimedTextData = { events: [] };
     CurrentTimeMs: number = -1;
     Player: any;
@@ -57,7 +57,7 @@ export class YouTubePlayerStore {
 
     constructor() {
         makeAutoObservable(this)
-        this.SetVideoId("CZ3wIuvmHeM")
+        this.SetVideoId("J3pF2jkQ4vc")
     }
 
     SetTimedTextData = (tt: TimedTextData | undefined) => {
